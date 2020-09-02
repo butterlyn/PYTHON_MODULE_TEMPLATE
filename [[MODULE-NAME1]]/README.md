@@ -37,7 +37,7 @@ sudo apt-get update | sudo apt-get install python3 python3-pip | python3 -m pip 
 
 Nicholas Butterly – butterlyn888@gmail.com
 
-Copyright (c) 2020 Nicholas Butterly. Distributed under the MIT license. See [LICENSE](LICENSE) for more information.
+Copyright (c) yyyy Nicholas Butterly. Distributed under the MIT license. See [LICENSE](LICENSE) for more information.
 
 [https://github.com/butterlyn/INSERT-PACKAGE-NAME-IN-GIT](https://github.com/butterlyn/INSERT-PACKAGE-NAME-IN-GIT/)
 [https://pypi.org/project/INSERT-PACKAGE-NAME/](https://pypi.org/project/INSERT-PACKAGE-NAME)
