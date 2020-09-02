@@ -21,7 +21,7 @@ MAC OS & Linux:
 7. Update the fields in setup.py according to the file comments.
 8. Open terminal, and enter:
     ```sh
-    sudo apt-get update | apt-get -y install python3 python3-pip python-dev ipython ipython-notebook wheel twine jupyter | python3 -m pip install setuptools
+    sudo apt-get update | apt-get -y install python3 python3-pip python-dev ipython ipython-notebook jupyter | python3 -m pip install setuptools wheel twine
     ```
 9. In terminal, navigate using the `cd` command to [[MODULE-NAME1]]. To create distrubution files for upload using setup.py, enter into terminal: `python3 setup.py sdist bdist_wheel`
 10. If necessary, create a PyPI account (https://pypi.org/).
@@ -51,8 +51,10 @@ import [[MODULE-NAME]].[[MODULE-OR-SUBMODULE-NAME]]
 ```
 
 ## RELEASE HISTORY:
+* 0.1.1 - 2020-09-02
+    * FIXED: Fixed issues in README.md INSTALLATION.
 * 0.1.0 - 2020-09-02
-    * FIX: Fixed issues in README.md INSTALLATION, UPDATING MODULE, and USAGE EXAMPLE sections.
+    * FIXED: Fixed issues in README.md INSTALLATION, UPDATING MODULE, and USAGE EXAMPLE sections.
 * 0.0.2 - 2020-09-02
     * CHANGE: Updated README.md
     * CHANGE: Removed setup.ipynb
