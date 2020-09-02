@@ -18,7 +18,7 @@ required_modules = list([ # update list with all modules used in package
 
 setuptools.setup(
     name="[[MODULE-NAME]]", # insert module name
-    version="0.0.2", # update to latest release version
+    version="0.0.1", # update to latest release version
     author="Nicholas Butterly",
     author_email="butterlyn888@gmail.com",
     description="A small example package", # update with one-sentence package description
