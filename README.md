@@ -21,7 +21,7 @@ MAC OS & Linux:
 7. Update the fields in setup.py according to the file comments.
 8. Open terminal, and enter:
     ```sh
-    sudo apt-get update | apt-get -y install python3 python3-pip python-dev ipython ipython-notebook jupyter | python3 -m pip install setuptools wheel twine
+    sudo apt-get update ; apt-get -y install python3 python3-pip python-dev ipython ipython-notebook jupyter ; python3 -m pip install setuptools wheel twine
     ```
 9. In terminal, navigate using the `cd` command to [[MODULE-NAME1]]. To create distrubution files for upload using setup.py, enter into terminal: `python3 setup.py sdist bdist_wheel`
 10. If necessary, create a PyPI account (https://pypi.org/).
