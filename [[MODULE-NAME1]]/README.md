@@ -18,7 +18,10 @@ sudo apt-get update | sudo apt-get install python3 python3-pip | python3 -m pip 
 
 ## USAGE EXAMPLE:
 
-[[A few motivating and useful examples of how your product can be used. Spice this up with code blocks and potentially more screenshots.]]
+from [[MODULE-NAME]] import [[MODULE-OR-SUBMODULE-NAME]]
+[[MODULE-OR-SUBMODULE-NAME]].[[MODULE-METHOD]]
+import [[MODULE-NAME]].[[MODULE-OR-SUBMODULE-NAME]]
+[[MODULE-NAME]].[[MODULE-OR-SUBMODULE-NAME]].[[MODULE-METHOD]]
 
 ## RELEASE HISTORY:
 
